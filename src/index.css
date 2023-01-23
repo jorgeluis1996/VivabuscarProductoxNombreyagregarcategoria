@@ -1,0 +1,134 @@
+body {
+    font-family: var( --e-global-typography-primary-font-family ),Sans-serif;
+    font-family: var( --e-global-typography-text-font-family ),Sans-serif;
+}
+
+:root {
+    --e-global-typography-primary-font-family: "sofia-pro";
+    --e-global-typography-text-font-family: "sofia-pro";
+    --color1: #2B2E5B;
+    --color2: #274073;
+    --color3: #EECC37;
+    --color4: #F28A2E;
+    --color5: #F24E29;
+    --color6: #7300A5;
+    --color7: #D60027;
+    --color-blanco: #FFFFFF;
+    --color-negro: #000000;
+    --gris-claro: #CCCCCC;
+    --gris-oscuro: #333333;
+    --gradient-end-color: #7300A5;
+    --gradient-start-color: #D60027;
+    --button-border-radius: 12px;
+    --gradient-start-color: #D60027;
+}
+
+h1 {
+    font-weight: 900;
+    /* Grosor o estilo de la fuente */
+    font-size: 36px;
+    letter-spacing: -2px;
+    /* Espaciado entre letras */
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 25.3px;
+    font-family: var(--e-global-typography-primary-font-family);
+    letter-spacing: -1px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    /* Para que se muestren los textos en mayúscula */
+}
+
+.padded {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.list-group-item.active {
+    background-color: var(--color6);
+    border-color: var(--color6);
+}
+.imgcarrito{
+    
+    width: 60px;
+
+}
+.card {
+    height: 100% !important;
+    
+}
+.concar{
+    height: 100% !important;
+    text-align: center;
+    background-color: #FEC943;
+}
+
+.sin-oferta {
+    display: none;
+}
+
+.con-oferta {
+    background-color: var(--color6);
+    color: var(--color-blanco);
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+}
+
+.btnEliminar{
+    cursor:pointer
+}
+.btnEliminar:hover{
+    color:var(--color6);
+}
+
+
+
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    background-color: var(--color6);
+
+    margin: 100px auto;
+    -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+    animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-rotateplane {
+    0% {
+        -webkit-transform: perspective(120px)
+    }
+
+    50% {
+        -webkit-transform: perspective(120px) rotateY(180deg)
+    }
+
+    100% {
+        -webkit-transform: perspective(120px) rotateY(180deg) rotateX(180deg)
+    }
+}
+
+@keyframes sk-rotateplane {
+    0% {
+        transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+        -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
+    }
+
+    50% {
+        transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+        -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
+    }
+
+    100% {
+        transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+        -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    }
+}

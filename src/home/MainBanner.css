@@ -1,0 +1,93 @@
+#banner{
+    background-color: transparent;
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+.banner h1{
+    position: absolute;
+    font-weight: bold;
+    font-family: 'sofia-pro';
+    font-size: 65px;
+    letter-spacing: -2px;
+    color: #2F2F2F;
+    top:50%;
+    left:18%;
+    text-align:start;
+    transform: translate(-20%,-90%);
+}
+
+.banner span{
+    position: absolute;
+    font-weight: bold;
+    font-family: 'helvetica';
+    font-size: 20px;
+    color: #8BB867;
+    top:35%;
+    left:16%;
+    text-align:start;
+    transform: translate(-20%,-90%);
+}
+.btnBanner{
+    position: absolute;
+    font-family: 'helvetica';
+    font-size: 14px;
+    top:65%;
+    left:17%;
+    text-align:start;
+    transform: translate(-20%,-90%);
+    border-style: solid;
+    border-color: #ff3300;
+    background: white;
+    
+    color: rgb(214, 5, 5);
+    letter-spacing: 1px;
+    padding: 13px 32px 13px 32px;
+}
+.btnBanner:hover{
+    background: rgba(255, 255, 255, 0.842);
+    color: rgb(247, 7, 7);
+    border-color: #df2d00;
+    
+}
+.banner p{
+    position: absolute;
+    font-family: 'sofia-pro';
+    font-size: 16px;
+    color: #828282;
+    top:55%;
+    left:18%;
+    text-align:start;
+    transform: translate(-20%,-90%);
+}
+.kd-overlay.gradient-overlay {
+    background: linear-gradient(90deg,var(--gradient-start-color) 0%,var(--gradient-end-color) 100%);
+    opacity: .8;
+}
+.subscribe-form-overlay, .vc_row>.kd-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.scroll-down-wrapper {
+    width: 100%; 
+    display: flex;
+}
+.scroll-down-wrapper a {
+    display: table-row;
+    border-radius: 100%;
+    height: 34px;
+    width: 34px;
+    transition: var(--fast-animation);
+    -webkit-mask-image: url(https://www.vivatheme.com/event/wp-content/plugins/viva-addon/assets/css/../img/scroll-down.svg);
+    mask-image: url(https://www.vivatheme.com/event/wp-content/plugins/viva-addon/assets/css/../img/scroll-down.svg);
+    
+    background-size: cover;
+}

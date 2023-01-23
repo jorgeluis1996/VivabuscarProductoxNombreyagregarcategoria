@@ -1,0 +1,27 @@
+#nosotros{
+    background-color: var(--color-blanco);
+    color: var(--color-negro);
+}
+.btn-primary {
+    background: linear-gradient(180deg,var(--gradient-end-color) 0%,var(--gradient-start-color) 100%); 
+
+    color: #fff;
+    border-color: #ff2600;
+}
+.btn-primary:hover{
+    background-color: #fff;
+    background:linear-gradient(90deg,var(--gradient-end-color) 0%,var(--gradient-start-color) 100%);
+    color: #ffffff;
+    border-color: #e70202;
+}
+.btn {
+    padding: 11px 27px;
+    border-radius: 0px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+p{
+   font-family:  var(--e-global-typography-text-font-family);
+}
